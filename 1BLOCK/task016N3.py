@@ -1,5 +1,5 @@
-# a 1 19 b
 a = int(input("Введите первое число: "))
 b = int(input("Введите второе число: "))
-print(f"{a} 1")
-print(f"19 {b}")
+c = int(input("Введите третье число: "))
+otvet = a / b * c
+print(f"Ваш ответ: {otvet}")
