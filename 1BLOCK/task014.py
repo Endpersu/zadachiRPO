@@ -1,3 +1,4 @@
+from math import sin, radians, cos, sqrt
 x = int(input("Введите число x: "))
 y = int(input("Введите число y: "))
 a = int(input("Введите число a: "))
