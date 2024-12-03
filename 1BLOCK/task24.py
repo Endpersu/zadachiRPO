@@ -1,4 +1,4 @@
-from math import sin
+from math import sin, sqrt
 
 a = int(input("Введите число a: "))
 
