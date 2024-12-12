@@ -1,4 +1,4 @@
-from math import sqrt 
+from math import sqrt
 
 a = int(input("Введите число a : "))
 

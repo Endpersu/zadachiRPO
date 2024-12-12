@@ -1,8 +1,8 @@
-#a)
+# a)
 s = 14
 print(s)
 
-k = -3 
+k = -3
 
 try:
     s = 2 * s
@@ -20,7 +20,6 @@ try:
     print(d + s)
 except NameError as e:
     print(e)
-    
 s = d
 print(s)
 
@@ -31,7 +30,7 @@ try:
 except NameError as e:
     print(e)
 
-k = 2 * s 
+k = 2 * s
 print(k)
 
 try:
@@ -39,8 +38,7 @@ try:
     print(k)
 except NameError as e:
     print(e)
-    
-#б)
+# б)
 s = 0
 print(s)
 
@@ -53,7 +51,7 @@ try:
     print(s + k)
 except NameError as e:
     print(e)
-    
+
 
 d = k - 5
 print(d)
@@ -64,18 +62,16 @@ try:
     print(d + k)
 except NameError as e:
     print(e)
-    
-    
+
 k = 2 * b 
 print(k)
 
 try:
-    k = 2 * b 
+    k = 2 * b
     print(k)
 except NameError as e:
     print(e)
-    
-    
+
 s = k - 100
 print(s)
 
