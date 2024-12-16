@@ -1,12 +1,10 @@
-from math import sin, sqrt
+from math import sqrt, sin, radians
 
-a = int(input("Введите число a: "))
+a = int(input("Введите значение а: "))
+x = int(input("Введите значение x: "))
 
-print(f"sqrt(2 * a) + sin(abs(3 * a)) / 3.56 = \ 
-      {sqrt(2 * a) + sin(abs(3 * a)) / 3.56}")
+print("a) x = sqrt(2 * a + sin(radians(abs(3 * a)))) / 3.56 =",
+      f"{round(sqrt(2 * a + sin(radians(abs(3 * a)))) / 3.56, 2)}")
 
-
-x = int(input("Введите число x: "))
-
-print(f"sin(3.2 + (1 - x)**0.5 / abs(5 * x)) \
-      = {sin((3.2 + (1 - x)**0.5) / abs(5 * x))}")
+print("б) y = sin(radians(3.2 + sqrt(1 + x) / abs(5 * x))) =",
+      f"{round(sin(radians(3.2 + sqrt(1 + x) / abs(5 * x))), 2)}")
