@@ -5,4 +5,3 @@ for x in range(100, 1000):
     if new_number == 546:
         print(f"Найдено число x: {x}")
         break
-    
