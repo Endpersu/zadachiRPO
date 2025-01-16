@@ -1,5 +1,5 @@
 num = int(input("Введите трёхзначное число: "))
-poslednee =  num % 10
+poslednee = num % 10
 crednee = (num // 10) % 10
 pervoe = (num // 100) % 10
 # a
