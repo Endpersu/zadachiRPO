@@ -2,7 +2,7 @@ def is_leap_year(year):
     return year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)
 
 
-def get_days_in_month(month, leap_year = False):
+def get_days_in_month(month, leap_year == False):
     if month == 2 and leap_year:
         return 29
     elif month in (4, 6,  9, 11):
