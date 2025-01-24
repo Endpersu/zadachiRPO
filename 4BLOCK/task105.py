@@ -1,5 +1,6 @@
 month_num = int(input("Введите цифру месяца (от 1-12): "))
 
+
 def month(month_num):
     match month_num:
         case 12:
@@ -26,7 +27,7 @@ def month(month_num):
             return "Февраль"
         case 1:
             return "Январь"
-        case __:
+        case _:
             return "Такого месяца нет"
 
 

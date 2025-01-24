@@ -9,7 +9,8 @@ def get_days_in_month(month, leap_year = False):
         return 30
     else:
         return 31
-    
+
+
 month = int(input("Введите номер месяц (от 1 до 12): "))
 leap_year = input("Введите год (или нажмите Enter, если год невисокосный)")
 
