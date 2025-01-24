@@ -1,13 +1,22 @@
 day_num = int(input("Введите номер дня недели (1-7): "))
 
-days = {
-    1: "понедельник",
-    2: "вторник",
-    3: "среда",
-    4: "четверг",
-    5: "пятница",
-    6: "суббота",
-    7: "воскресенье"
-}
+def day(day_num):
+    match day_num:
+        case 1:
+            return "Понедельник"
+        case 2:
+            return "Вторник"
+        case 3:
+            return "Среда"
+        case 4:
+            return "Четверг"
+        case 5:
+            return "Пятница"
+        case 6:
+            return "Суббота"
+        case 7:
+            return "Воскресенье"
+        case _:
+            return "Такого дня недели не существует"
 
-print(days.get(day_num, "Неверный номер дня недели"))
+print(day(day_num))
